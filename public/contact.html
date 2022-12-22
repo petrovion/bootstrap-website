@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Shopping Cart</title>
+    <title>Contact Us</title>
     <link rel="icon" type="image/x-icon" href="/img/shirt-outline.svg" />
     <link rel="stylesheet" href="style.css" />
     <link
@@ -77,49 +77,43 @@
     </nav>
 
     <main>
-      <div class="container p-4">
-        <div class="h2">Your Cart</div>
+      <div class="container-sm">
+        <div class="h2 p-4">Contact</div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="h4">ITEMS</div>
-          <div class="col text-center">
-            <a class="link-dark" href="#">
-              <img src="img/cart1.jpg" width="250" height="250" />
-              <p>
-                BAKI FIGHT POSE TEE <br />
-                $19.00
-              </p>
-            </a>
+      <div class="container-sm">
+        <form>
+          <div class="form-outline mb-4">
+            <input type="text" id="form4Example1" class="form-control" />
+            <label class="form-label" for="form4Example1">Name</label>
           </div>
-          <div class="col text-center">
-            <a class="link-dark" href="#">
-              <img src="img/cart2.jpg" width="250" height="250" />
-              <p>
-                BERSERK GUTS WARRIOR TEE <br />
-                $19.00
-              </p>
-            </a>
+          <div class="form-outline mb-4">
+            <input type="email" id="form4Example2" class="form-control" />
+            <label class="form-label" for="form4Example2">Email address</label>
           </div>
-          <div class="col text-center">
-            <a class="link-dark" href="#">
-              <img src="img/cart3.jpg" width="250" height="250" />
-              <p>
-                THE BERSERKER ARMOR TEE <br />
-                $19.00
-              </p>
-            </a>
+          <div class="form-outline mb-4">
+            <textarea
+              class="form-control"
+              id="form4Example3"
+              rows="4"
+            ></textarea>
+            <label class="form-label" for="form4Example3">Message</label>
           </div>
-        </div>
-        <div class="container p-4 text-end">
-          <div class="h2">Total</div>
-          <p>$57,00</p>
-        </div>
-        <div class="container p-5">
-          <button class="btn btn-dark btn-lg float-end" type="button">
-            Check out
+          <div class="form-check d-flex justify-content-center mb-4">
+            <input
+              class="form-check-input me-2"
+              type="checkbox"
+              value=""
+              id="form4Example4"
+              checked
+            />
+            <label class="form-check-label" for="form4Example4">
+              Send me a copy of this message
+            </label>
+          </div>
+          <button type="submit" class="btn btn-dark btn-block mb-4">
+            Send
           </button>
-        </div>
+        </form>
       </div>
     </main>
 
